@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.point {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.outer-circle {
+    position: absolute;
+    width: 600px; /* Ajustez la taille du cercle extérieur selon vos besoins */
+    height: 600px;
+    border: 2px solid white; /* Couleur et épaisseur de la bordure */
+    border-radius: 50%;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
