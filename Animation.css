@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     overflow: hidden;
     background-color: black;
@@ -22,12 +22,21 @@ body {
 
 .outer-circle {
     position: absolute;
-    width: 600px; /* Ajustez la taille du cercle extérieur selon vos besoins */
+    width: 600px; 
     height: 600px;
-    border: 2px solid white; /* Couleur et épaisseur de la bordure */
+    border: 2px solid white; 
     border-radius: 50%;
     top: 20%;
     left: 20%;
     transform: translate(-50%, -50%);
     background-color: black;
+} */
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
 }
