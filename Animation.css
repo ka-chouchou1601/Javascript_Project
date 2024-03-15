@@ -8,3 +8,60 @@ body {
 canvas {
     display: block;
 }
+.Header {
+  color: white; 
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: auto; 
+  text-align: center; 
+  padding: 10px;
+  box-sizing: border-box; 
+  opacity: 1; 
+  animation: fadeInOut 1s ease-in-out infinite alternate; 
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1; 
+  }
+  50% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+.Names_1 {
+  color: white;
+  position: fixed; 
+  bottom: 40px; 
+  right: 0; 
+  width: auto; 
+  text-align: right; 
+ 
+  padding: 5px; 
+  box-sizing: border-box;
+  opacity: 1; 
+  font-size: 12px; 
+}
+
+.Names {
+  color: white; 
+  position: fixed; 
+  bottom: 20px;
+  right: 0; 
+  width: auto; 
+  text-align: right; 
+  padding: 5px; 
+  box-sizing: border-box; 
+  opacity: 1;
+  font-size: 12px; 
+}
+
+
+
+
+
+
